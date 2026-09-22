@@ -1,118 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
 
-  <!-- =======================================================
-       CONFIGURACIÓN GENERAL
-       ======================================================= -->
+<head>
 
   <meta charset="UTF-8">
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <!-- ===================================================== -->
+  <!-- VISTA PREVIA WHATSAPP / FACEBOOK / TELEGRAM          -->
+  <!-- ===================================================== -->
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:url"
+        content="https://1iliil.github.io/PREMIOS-ECUABET/">
+
+  <meta property="og:title"
+        content="PREMIOS ECUABET">
+
+  <meta property="og:description"
+        content="Ingresa y conoce más información.">
+
+  <meta property="og:site_name"
+        content="PREMIOS ECUABET">
+
+  <!-- IMAGEN ABSOLUTA -->
+
+  <meta property="og:image"
+        content="https://1iliil.github.io/PREMIOS-ECUABET/Logo.png">
+
+  <meta property="og:image:secure_url"
+        content="https://1iliil.github.io/PREMIOS-ECUABET/Logo.png">
+
+  <meta property="og:image:type"
+        content="image/png">
+
+  <meta property="og:image:alt"
+        content="PREMIOS ECUABET">
+
+
+  <!-- ===================================================== -->
+  <!-- CONFIGURACIÓN GENERAL                                 -->
+  <!-- ===================================================== -->
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
   <title>PREMIOS ECUABET</title>
 
-  <meta
-    name="description"
-    content="PREMIOS ECUABET"
-  >
+  <meta name="description"
+        content="Ingresa y conoce más información.">
 
 
-  <!-- =======================================================
-       OPEN GRAPH
-       VISTA PREVIA PARA WHATSAPP / FACEBOOK / TELEGRAM
-       ======================================================= -->
+  <!-- ===================================================== -->
+  <!-- TWITTER / X                                           -->
+  <!-- ===================================================== -->
 
-  <meta
-    property="og:type"
-    content="website"
-  >
+  <meta name="twitter:card"
+        content="summary_large_image">
 
-  <meta
-    property="og:site_name"
-    content="PREMIOS ECUABET"
-  >
+  <meta name="twitter:title"
+        content="PREMIOS ECUABET">
 
-  <meta
-    property="og:title"
-    content="PREMIOS ECUABET"
-  >
+  <meta name="twitter:description"
+        content="Ingresa y conoce más información.">
 
-  <meta
-    property="og:description"
-    content="Ingresa para conocer más información."
-  >
-
-  <meta
-    property="og:url"
-    content="https://1iliil.github.io/PREMIOS-ECUABET/"
-  >
-
-  <!-- IMAGEN PRINCIPAL PARA WHATSAPP -->
-
-  <meta
-    property="og:image"
-    content="https://1iliil.github.io/PREMIOS-ECUABET/Logo.png"
-  >
-
-  <meta
-    property="og:image:secure_url"
-    content="https://1iliil.github.io/PREMIOS-ECUABET/Logo.png"
-  >
-
-  <meta
-    property="og:image:type"
-    content="image/png"
-  >
-
-  <meta
-    property="og:image:alt"
-    content="PREMIOS ECUABET"
-  >
+  <meta name="twitter:image"
+        content="https://1iliil.github.io/PREMIOS-ECUABET/Logo.png">
 
 
-  <!-- =======================================================
-       X / TWITTER
-       ======================================================= -->
+  <!-- ===================================================== -->
+  <!-- ICONO DEL SITIO                                       -->
+  <!-- ===================================================== -->
 
-  <meta
-    name="twitter:card"
-    content="summary_large_image"
-  >
-
-  <meta
-    name="twitter:title"
-    content="PREMIOS ECUABET"
-  >
-
-  <meta
-    name="twitter:description"
-    content="Ingresa para conocer más información."
-  >
-
-  <meta
-    name="twitter:image"
-    content="https://1iliil.github.io/PREMIOS-ECUABET/Logo.png"
-  >
+  <link rel="icon"
+        type="image/png"
+        href="https://1iliil.github.io/PREMIOS-ECUABET/Logo.png">
 
 
-  <!-- =======================================================
-       FAVICON
-       ======================================================= -->
-
-  <link
-    rel="icon"
-    type="image/png"
-    href="./Logo.png"
-  >
-
-
-  <!-- =======================================================
-       CSS
-       ======================================================= -->
+  <!-- ===================================================== -->
+  <!-- ESTILOS                                               -->
+  <!-- ===================================================== -->
 
   <style>
 
@@ -122,20 +89,17 @@
       box-sizing: border-box;
     }
 
-
-    html {
+    html,
+    body {
       width: 100%;
-      height: 100%;
+      min-height: 100%;
     }
-
 
     body {
 
-      width: 100%;
       min-height: 100vh;
 
       display: flex;
-
       justify-content: center;
       align-items: center;
 
@@ -147,9 +111,9 @@
       background:
         linear-gradient(
           135deg,
-          #07152c 0%,
-          #0b2246 50%,
-          #12376e 100%
+          #061326 0%,
+          #0a2348 50%,
+          #123b75 100%
         );
 
       color: #ffffff;
@@ -157,30 +121,33 @@
     }
 
 
-    /* CONTENEDOR PRINCIPAL */
+    /* =============================== */
+    /* CONTENEDOR                      */
+    /* =============================== */
 
-    .container {
+    .contenedor {
 
       width: 100%;
-
       max-width: 700px;
 
-      padding: 40px 20px;
+      padding: 25px;
 
       text-align: center;
 
     }
 
 
-    /* TARJETA */
+    /* =============================== */
+    /* TARJETA                         */
+    /* =============================== */
 
-    .card {
+    .tarjeta {
 
       width: 100%;
 
-      padding: 40px 30px;
+      padding: 40px 25px;
 
-      border-radius: 24px;
+      border-radius: 25px;
 
       background:
         rgba(
@@ -208,13 +175,12 @@
           0.35
         );
 
-      backdrop-filter:
-        blur(10px);
-
     }
 
 
-    /* LOGO */
+    /* =============================== */
+    /* LOGO                            */
+    /* =============================== */
 
     .logo {
 
@@ -222,7 +188,7 @@
 
       width: 100%;
 
-      max-width: 450px;
+      max-width: 500px;
 
       height: auto;
 
@@ -230,12 +196,12 @@
         0 auto
         30px auto;
 
-      object-fit: contain;
-
     }
 
 
-    /* TÍTULO */
+    /* =============================== */
+    /* TÍTULO                          */
+    /* =============================== */
 
     h1 {
 
@@ -250,31 +216,35 @@
     }
 
 
-    /* DESCRIPCIÓN */
+    /* =============================== */
+    /* DESCRIPCIÓN                     */
+    /* =============================== */
 
-    .description {
+    .descripcion {
 
       margin-bottom: 30px;
 
-      font-size: 17px;
+      font-size: 18px;
 
-      line-height: 1.6;
+      line-height: 1.5;
 
       opacity: 0.9;
 
     }
 
 
-    /* BOTÓN */
+    /* =============================== */
+    /* BOTÓN                           */
+    /* =============================== */
 
-    .button {
+    .boton {
 
       display: inline-block;
 
       padding:
-        15px 32px;
+        15px 40px;
 
-      border-radius: 30px;
+      border-radius: 50px;
 
       background: #ffffff;
 
@@ -282,7 +252,7 @@
 
       text-decoration: none;
 
-      font-size: 16px;
+      font-size: 17px;
 
       font-weight: bold;
 
@@ -293,10 +263,10 @@
     }
 
 
-    .button:hover {
+    .boton:hover {
 
       transform:
-        translateY(-2px);
+        translateY(-3px);
 
       box-shadow:
         0 10px 25px
@@ -304,41 +274,41 @@
           0,
           0,
           0,
-          0.25
+          0.3
         );
 
     }
 
 
-    /* PIE */
+    /* =============================== */
+    /* PIE                             */
+    /* =============================== */
 
-    .footer {
+    .pie {
 
       margin-top: 30px;
 
       font-size: 13px;
 
-      opacity: 0.65;
+      opacity: 0.6;
 
     }
 
 
-    /* =======================================================
-       RESPONSIVE
-       ======================================================= */
+    /* =============================== */
+    /* MÓVILES                         */
+    /* =============================== */
 
     @media
     (max-width: 600px) {
 
-      .container {
+      .contenedor {
 
-        padding:
-          20px 15px;
+        padding: 15px;
 
       }
 
-
-      .card {
+      .tarjeta {
 
         padding:
           30px 20px;
@@ -348,14 +318,12 @@
 
       }
 
-
       .logo {
 
         max-width:
-          320px;
+          350px;
 
       }
-
 
       h1 {
 
@@ -364,19 +332,16 @@
 
       }
 
-
-      .description {
+      .descripcion {
 
         font-size:
           16px;
 
       }
 
+      .boton {
 
-      .button {
-
-        width:
-          100%;
+        width: 100%;
 
         max-width:
           300px;
@@ -392,66 +357,66 @@
 
 <body>
 
-  <main class="container">
 
-    <section class="card">
+  <main class="contenedor">
 
 
-      <!-- ==============================
-           LOGO
-           ============================== -->
+    <section class="tarjeta">
+
+
+      <!-- LOGO -->
 
       <img
-        src="./Logo.png"
+        src="https://1iliil.github.io/PREMIOS-ECUABET/Logo.png"
         alt="PREMIOS ECUABET"
         class="logo"
       >
 
 
-      <!-- ==============================
-           TÍTULO
-           ============================== -->
+      <!-- TÍTULO -->
 
       <h1>
         PREMIOS ECUABET
       </h1>
 
 
-      <!-- ==============================
-           TEXTO
-           ============================== -->
+      <!-- DESCRIPCIÓN -->
 
-      <p class="description">
-        Ingresa para conocer más información.
+      <p class="descripcion">
+
+        Ingresa y conoce más información.
+
       </p>
 
 
-      <!-- ==============================
-           BOTÓN
-           ============================== -->
+      <!-- BOTÓN -->
 
       <a
         href="#"
-        class="button"
+        class="boton"
         onclick="return false;"
       >
+
         INGRESAR
+
       </a>
 
 
-      <!-- ==============================
-           PIE
-           ============================== -->
+      <!-- PIE -->
 
-      <div class="footer">
+      <div class="pie">
+
         PREMIOS ECUABET
+
       </div>
 
 
     </section>
 
+
   </main>
 
 
 </body>
+
 </html>
